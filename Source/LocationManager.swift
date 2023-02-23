@@ -20,5 +20,5 @@ public class LocationManager {
         locationGranted = true
         print("Location granted")
     }
-    
+
 }

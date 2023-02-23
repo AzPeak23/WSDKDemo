@@ -4,7 +4,8 @@ platform :ios, '10.0'
 
 target 'WSDKDemo_Example' do
   pod 'WSDKDemo', :path => '../'
-
+  pod 'Kingfisher'
+  
   target 'WSDKDemo_Tests' do
     inherit! :search_paths
 
