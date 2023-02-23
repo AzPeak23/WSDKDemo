@@ -1,0 +1,22 @@
+{
+  "name": "WSDKDemo",
+  "version": "0.1.0",
+  "summary": "A short description of WSDKDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ashahrouj/WSDKDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ashahrouj": "shahrouj@peakperformances.io"
+  },
+  "source": {
+    "git": "https://github.com/ashahrouj/WSDKDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "WSDKDemo/Classes/**/*"
+}

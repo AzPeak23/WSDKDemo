@@ -1,0 +1,6 @@
+framework module WSDKDemo {
+  umbrella header "WSDKDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - WSDKDemo (0.1.0)
+
+DEPENDENCIES:
+  - WSDKDemo (from `../`)
+
+EXTERNAL SOURCES:
+  WSDKDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WSDKDemo: dee1cb2f3398feb6ae9e4ab0aaa24eb38b948e3c
+
+PODFILE CHECKSUM: 5074d4444cf92199e0a43f68a7856bc1e1c44cae
+
+COCOAPODS: 1.11.3
