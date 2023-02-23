@@ -7,7 +7,7 @@ target 'WSDKDemo_Example' do
   pod 'Kingfisher'
   
   target 'WSDKDemo_Tests' do
-    inherit! :search_paths
+    inherit! :complete
 
     
   end
