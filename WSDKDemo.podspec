@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/ashahrouj/WSDKDemo'
+  s.homepage         = 'https://github.com/AzPeak23/WSDKDemo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ashahrouj' => 'shahrouj@peakperformances.io' }
-  s.source           = { :git => 'https://github.com/ashahrouj/WSDKDemo.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/AzPeak23/WSDKDemo', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'WSDKDemo/Classes/**/*'
+  s.source_files = '**/*.{swift}'
   
   # s.resource_bundles = {
   #   'WSDKDemo' => ['WSDKDemo/Assets/*.png']
@@ -38,5 +38,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Kingfisher'
 end
